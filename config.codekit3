@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -26,6 +33,57 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/Untitled-1\/Pentools2.png": {
+		"ft": 32768,
+		"iS": 83213,
+		"oA": 0,
+		"oAP": "\/Untitled-1\/Pentools2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/Untitled-1\/Sonos_Zine3_Low_4.jpg": {
+		"ft": 16384,
+		"iS": 1288658,
+		"oA": 0,
+		"oAP": "\/Untitled-1\/Sonos_Zine3_Low_4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Untitled-1\/sonos_zine3_low_5.jpg": {
+		"ft": 16384,
+		"iS": 344067,
+		"oA": 0,
+		"oAP": "\/Untitled-1\/sonos_zine3_low_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/Untitled-1\/zine.jpg": {
+		"ft": 16384,
+		"iS": 366812,
+		"oA": 0,
+		"oAP": "\/Untitled-1\/zine.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		}
 	},
 "hooks": [
