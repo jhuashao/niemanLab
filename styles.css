@@ -9,18 +9,24 @@ body {
     margin: 0px;
 }
 
-a{
-    text-decoration:none;
-    cursor:pointer;
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-a:visited { 
+a:visited {
     color: white;
 }
 
-img{
-    width:100%;
-    height:auto;
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-family: rubik;
+    font-size: 12px;
+    margin-bottom: 30px;
 }
 
 .home-container {
@@ -32,11 +38,11 @@ img{
     cursor: url(Untitled-1/Pentools2.png), auto;
 }
 
-.about{
+.about {
     font-size: 2vw;
-    font-family:rubik;
-    color:white;
-    padding-bottom:50px;
+    font-family: rubik;
+    color: white;
+    padding-bottom: 50px;
 }
 
 .nav-wrapper {
@@ -88,20 +94,19 @@ header {
     }
 }
 
-.link-container{
-    display:flex;
+.link-container {
+    display: flex;
     flex-direction: column;
 }
 
-.link{
-    width:100%;
-    height:400px;
-    background-color:white;
-    margin-top:30px;
-    margin-bottom:30px;
+.link {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 30px;
+
     overflow: hidden;
 }
-
 
 h1 {
     color: white;
@@ -322,4 +327,3 @@ img {
     background-position: center;
     background-repeat: no-repeat;
 }
-
