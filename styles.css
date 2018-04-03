@@ -1,13 +1,65 @@
-body{
+@font-face {
+    font-family: druk-wide;
+    src: url(fonts/DrukWide-Super.otf);
+}
+
+body {
+    background-color: #0f0f0f;
+    width: 100%;
+    margin: 0px;
+}
+
+.container {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #0f0f0f;
+    padding-top: 100px;
     padding-bottom: 100px;
-    cursor:url(Untitled-1/Pentools2.png), auto;
+    cursor: url(Untitled-1/Pentools2.png), auto;
 }
 
-h1{
+.nav-wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    z-index: 100;
+    align-content: center;
+}
+
+.niemanlab {
+    font-family: druk-wide;
+    font-size: 3vw;
+}
+
+.niemanlab:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: black;
+}
+
+.niemanlab-predictions {
+    font-family: rubik;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .niemanlab {
+        font-size: 20px;
+    }
+    .niemanlab-predictions {
+        font-size: 8px;
+    }
+}
+
+h1 {
     color: white;
     font-size: 90px;
     font-weight: 400;
@@ -20,7 +72,7 @@ h1{
     margin-right: auto;
 }
 
-h2{
+h2 {
     color: white;
     font-weight: 100;
     font-size: 16px;
@@ -29,7 +81,7 @@ h2{
     font-family: 'Lora', serif;
 }
 
-h3{
+h3 {
     color: white;
     font-family: 'Lora', serif;
     font-weight: 200;
@@ -38,8 +90,7 @@ h3{
     padding-bottom: 20px;
 }
 
-
-p{
+p {
     font-size: 17px;
     color: white;
     font-weight: 100;
@@ -47,7 +98,7 @@ p{
     font-family: 'Lora', serif;
 }
 
-p1{
+p1 {
     line-height: 0;
     color: white;
     font-size: 11px;
@@ -56,7 +107,7 @@ p1{
     text-align: center;
 }
 
-.example{
+.example {
     font-weight: 100;
     text-align: center;
     line-height: 1.1;
@@ -65,7 +116,7 @@ p1{
     padding-top: 10px;
 }
 
-.break{
+.break {
     font-weight: 100;
     text-align: center;
     line-height: 1.1;
@@ -73,83 +124,83 @@ p1{
     font-size: 65px;
 }
 
-.zinequalities{
+.zinequalities {
     text-align: center;
     font-size: 90px;
     font-family: 'Amatic SC', cursive;
 }
 
-.a1{
+.a1 {
     font-weight: 100;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 60px;
-    color:#f4efed;
+    color: #f4efed;
 }
 
-.a1:hover{
-    animation: shake 0.5s; 
-    animation-iteration-count: infinite; 
+.a1:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
     color: lightsalmon;
 }
 
-.a2{
+.a2 {
     font-weight: 100;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 60px;
-    color:#f4efed;
+    color: #f4efed;
 }
 
-.a2:hover{
-    animation: shake 0.5s; 
-    animation-iteration-count: infinite; 
-    color:#fff321;
+.a2:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    color: #fff321;
 }
 
-.a3{
+.a3 {
     font-weight: 100;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 60px;
-    color:#f4efed;
+    color: #f4efed;
 }
 
-.a3:hover{
-    animation: shake 0.5s; 
-    animation-iteration-count: infinite; 
-    color:#caafff;
+.a3:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    color: #caafff;
 }
 
-.a4{
+.a4 {
     font-weight: 100;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 60px;
-    color:#f4efed;
+    color: #f4efed;
 }
 
-.a4:hover{
-    animation: shake 0.5s; 
-    animation-iteration-count: infinite; 
+.a4:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
     color: #afe9ff;
 }
 
-.a5{
+.a5 {
     font-weight: 100;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 60px;
-    color:#f4efed;
+    color: #f4efed;
 }
 
-.a5:hover{
-    animation: shake 0.5s; 
+.a5:hover {
+    animation: shake 0.5s;
     animation-iteration-count: infinite;
     color: aquamarine;
 }
 
-.flip02{
+.flip02 {
     font-weight: 100;
     line-height: 1.3;
     text-align: center;
@@ -158,7 +209,7 @@ p1{
     padding-bottom: 40px;
 }
 
-.weird{
+.weird {
     font-size: 70px;
     text-align: center;
     font-family: 'Cabin Sketch', cursive;
@@ -166,41 +217,60 @@ p1{
 
 img {
     max-width: 100%;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
 }
 
 .full-width {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
-
-
 .weird:hover {
-    animation: shake 0.5s; 
-    animation-iteration-count: infinite; 
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
 }
 
-
-.zines{
+.zines {
     height: 100%;
     background-image: url('zine.jpg');
     background-size: cover;
@@ -209,13 +279,9 @@ img {
 }
 
 @media (min-width: 768px) {
-	body {
-		width: 600px;
+    .container {
+        width: 600px;
         margin-left: auto;
         margin-right: auto;
-	}
+    }
 }
-    
-
-
-
